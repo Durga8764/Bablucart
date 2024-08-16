@@ -11,7 +11,7 @@ terraform {
     bucket  = "terraformstatefile123"
     key     = "Tf state"
     region  = "us-east-1"
-    encrypt = true
+    encrypt = false
 
   }
 }
