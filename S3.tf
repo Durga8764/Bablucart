@@ -17,7 +17,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "durga-8764-test"
+  bucket = "durga-8764-test madhavi"
 
   tags = {
     Name        = "My bucket"
